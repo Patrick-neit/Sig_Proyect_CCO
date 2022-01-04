@@ -1,0 +1,3 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.example.sig_proyect.MainActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
