@@ -58,6 +58,14 @@ class _LoginPageState extends State<LoginPage> {
                         const SizedBox(
                           height: 15.0,
                         ),
+                        FloatingActionButton.extended(
+                          onPressed: () {
+                            Navigator.pushReplacementNamed(
+                                context, '/tipoapoyo_view');
+                          },
+                          label: const Text('Are u new?'),
+                          icon: const Icon(Icons.app_registration_outlined),
+                        ),
                       ],
                     )))
           ],
@@ -148,13 +156,13 @@ class _LoginPageState extends State<LoginPage> {
 
             if (loginsuccess) {
               //tipousuario = controllerapp.text;
-              if (tipocco == tipousuario) {
-                Navigator.of(context).pushNamedAndRemoveUntil(
-                    '/listado_solicitudes_emergencia',
-                    (Route<dynamic> route) => false);
-                //Navigator.pushReplacementNamed(context, '/cliente_page');
+              //if (tipocco == tipousuario) {
+              Navigator.of(context).pushNamedAndRemoveUntil(
+                  '/listado_solicitudes_emergencia',
+                  (Route<dynamic> route) => false);
+              //Navigator.pushReplacementNamed(context, '/cliente_page');
 
-              }
+              //}
             } else {
               showDialog(
                 context: context,

@@ -3,7 +3,9 @@ import 'package:sig_proyect_cco/emergency_type_page.dart';
 import 'package:sig_proyect_cco/listado_solicitudes_emergencia.dart';
 import 'package:sig_proyect_cco/locations/mylocation_maps.dart';
 import 'package:sig_proyect_cco/login_page.dart';
+import 'package:sig_proyect_cco/personal_apoyoview.dart';
 import 'package:sig_proyect_cco/register_user_page.dart';
+import 'package:sig_proyect_cco/tipoapoyo_view.dart';
 
 void main() {
   runApp(const SigApp());
@@ -28,7 +30,11 @@ class SigApp extends StatelessWidget {
         '/login_page': (BuildContext context) => const LoginPage(),
         '/mylocation_maps': (BuildContext context) => const MyLocation(),
         '/listado_solicitudes_emergencia': (BuildContext context) =>
-            const SolicitudEmergenciaListPage()
+            const SolicitudEmergenciaListPage(),
+        '/personal_apoyoview': (BuildContext context) =>
+            const ListadoPersonalView(),
+        '/tipoapoyo_view': (BuildContext context) =>
+            const TipoApoyoRegisterView(),
       },
     );
   }

@@ -34,7 +34,12 @@ class _SolicitudEmergenciaListPageState
                     ListTile(
                         leading:
                             const Icon(Icons.format_list_numbered_rtl_outlined),
-                        title: Text('Solicitud #:   ' + item.id.toString())),
+                        title: Text('Solicitud #:   ' + item.id.toString()),
+                        subtitle: const Text('Click para asignar personal'),
+                        onTap: () {
+                          Navigator.pushReplacementNamed(
+                              context, '/personal_apoyoview');
+                        }),
                     ListTile(
                         leading: const Icon(Icons.person_add_alt_1_rounded),
                         title: Text(
