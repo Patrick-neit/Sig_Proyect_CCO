@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\src\\FlutterProyects\\Flutter_SIG_Proyect\\sig_proyect\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\src\\FlutterProyects\\Flutter_SIG_Proyect_CCO\\sig_proyect_cco\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\src\\FlutterProyects\\Flutter_SIG_Proyect\\sig_proyect\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\src\\FlutterProyects\\Flutter_SIG_Proyect_CCO\\sig_proyect_cco\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

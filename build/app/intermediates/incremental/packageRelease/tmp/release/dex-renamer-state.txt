@@ -1,4 +1,4 @@
-#Wed Dec 01 14:25:50 BOT 2021
-base.0=C\:\\src\\FlutterProyects\\Flutter_SIG_Proyect\\sig_proyect\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+#Mon Jan 10 15:34:01 BOT 2022
+base.0=C\:\\src\\FlutterProyects\\Flutter_SIG_Proyect_CCO\\sig_proyect_cco\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
